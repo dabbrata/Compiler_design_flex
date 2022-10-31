@@ -1,0 +1,57 @@
+IMPORT<stdlib.h>
+#define  pi   3.1416
+ Program Started from here
+int  var_X  =  20  ;
+int  var_Y  =  30  ;
+ float  var_ft  =  30.5 ;
+int  var_sum  = ( var_X  +  var_Y ) ;
+ float  var_sub  = ( var_ft  -  var_X ) ;
+int  var_mul  = ( var_X  *  var_Y ) ;
+int  var_div  = ( var_X  /  var_Y ) ;
+int  var_reminder  = ( var_X    var_Y ) ;
+int  var_power  = ( var_X  **  2 ) ;
+printf( var_sum ) ;
+printf( var_sub ) ;
+printf( var_mul ) ;
+if( var_X  >  var_Y ){
+printf(" var_X   is   greater") ;
+}
+else if( var_X  ==  var_Y ){
+printf(" var_X   and   var_Y   are   equal ") ;
+}
+else{
+printf(" var_Y   is   smaller ") ;
+}
+for(int  var_i  =  0 ,   var_i  <  10 ,   var_i  ++){
+	printf( var_i ) ;
+}
+int  var_n  =  5  ;
+while( var_n  >=  0 ){
+printf( var_n ) ;
+ var_n  -- ;
+}
+switch( 5 ){
+case  1  :
+	printf( one) ;
+	break ;
+case  5  :
+	printf( five) ;
+	break ;
+default :
+	printf( ONE ) ;
+}
+int  var_s  = sin( 30 ) ;
+int  var_cs  = cos( 30 ) ;
+int  var_tn  = tan( 30 ) ;
+int  var_l  = ln( 8 ) ;
+int  var_lg  = log10( 32 ) ;
+FUNCTION   func_Add(int  var_a , int  var_b ){
+	int  var_summ  = ( var_a  +  var_b ) ;
+	printf( var_summ ) ;
+}
+ goto_Add( 10  ,5 ) ;
+ (#This is single line comment) is a single line comment 
+ (## This is multiple
+line 
+comment ##) is a multiple line comment 
+ 'ENDP' denotes ending of a program

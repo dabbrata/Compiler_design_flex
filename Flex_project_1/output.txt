@@ -1,0 +1,282 @@
+ 'IMPORT' keyword is used for the header file
+ (<stdlib.h>) is a header file
+ 'DEFINE' denotes 'def' keyword
+  'pi' is a STRING
+  3.1416 is an FLOAT
+ Program Started from here
+ 'INTEGER' like 'int' type 
+  (var_X) is a variable
+  'ASSIGN' denotes = keyword
+  20 is an INTEGER
+  'END' denotes ending of a line
+ 'INTEGER' like 'int' type 
+  (var_Y) is a variable
+  'ASSIGN' denotes = keyword
+  30 is an INTEGER
+  'END' denotes ending of a line
+ 'FLOAT' like 'float' type 
+  (var_ft) is a variable
+  'ASSIGN' denotes = keyword
+  30.5 is an FLOAT
+  'END' denotes ending of a line
+ 'INTEGER' like 'int' type 
+  (var_sum) is a variable
+  'ASSIGN' denotes = keyword
+  Open first bracket
+ (var_x) is a variable
+  'PLUS' denotes + keyword
+  (var_Y) is a variable
+ Close first bracket
+  'END' denotes ending of a line
+ 'FLOAT' like 'float' type 
+  (var_sub) is a variable
+  'ASSIGN' denotes = keyword
+  Open first bracket
+ (var_ft) is a variable
+  'MINUS' denotes - keyword
+  (var_X) is a variable
+ Close first bracket
+  'END' denotes ending of a line
+ 'INTEGER' like 'int' type 
+  (var_mul) is a variable
+  'ASSIGN' denotes = keyword
+  Open first bracket
+ (var_x) is a variable
+  'MUL' denotes * keyword
+  (var_Y) is a variable
+ Close first bracket
+  'END' denotes ending of a line
+ 'INTEGER' like 'int' type 
+  (var_div) is a variable
+  'ASSIGN' denotes = keyword
+  Open first bracket
+ (var_x) is a variable
+  'DIV' denotes / keyword
+  (var_Y) is a variable
+ Close first bracket
+  'END' denotes ending of a line
+ 'INTEGER' like 'int' type 
+  (var_reminder) is a variable
+  'ASSIGN' denotes = keyword
+  Open first bracket
+ (var_x) is a variable
+  'MOD' denotes keyword
+  (var_Y) is a variable
+ Close first bracket
+  'END' denotes ending of a line
+ 'INTEGER' like 'int' type 
+  (var_power) is a variable
+  'ASSIGN' denotes = keyword
+  Open first bracket
+ (var_x) is a variable
+  'POW' denotes ** keyword
+  2 is an INTEGER
+ Close first bracket
+  'END' denotes ending of a line
+ 'PRINT' denotes show the line
+ Open first bracket
+ (var_sum) is a variable
+ Close first bracket
+  'END' denotes ending of a line
+ 'PRINT' denotes show the line
+ Open first bracket
+ (var_sub) is a variable
+ Close first bracket
+  'END' denotes ending of a line
+ 'PRINT' denotes show the line
+ Open first bracket
+ (var_mul) is a variable
+ Close first bracket
+  'END' denotes ending of a line
+ 'JODI' like 'if' keyword
+ Open first bracket
+ (var_X) is a variable
+  'GT' denotes greater than > keyword
+  (var_Y) is a variable
+ Close first bracket
+ Open second bracket
+ 'PRINT' denotes show the line
+ Open first bracket
+ (var_X) is a variable
+  'is' is a STRING
+  (greater) function is called
+ Close first bracket
+  'END' denotes ending of a line
+ Close Second bracket
+ 'OTHOBA' like 'else if' keyword
+ Open first bracket
+ (var_X) is a variable
+  'EQL' denotes equal == keyword
+  (var_Y) is a variable
+ Close first bracket
+ Open second bracket
+ 'PRINT' denotes show the line
+ Open first bracket
+ (var_X) is a variable
+  (and) is a variable
+  (var_Y) is a variable
+  (are) is a variable
+  'equal' is a STRING
+ Close first bracket
+ Close Second bracket
+ 'NAHOLE' like 'else' keyword
+ Open second bracket
+ 'PRINT' denotes show the line
+ Open first bracket
+ (var_Y) is a variable
+  'is' is a STRING
+  'smaller' is a STRING
+ Close first bracket
+  'END' denotes ending of a line
+ Close Second bracket
+ 'FLOOP' like 'for' keyword
+ Open first bracket
+ 'INTEGER' like 'int' type 
+  (var_i) is a variable
+  'ASSIGN' denotes = keyword
+  0 is an INTEGER
+ Coma keyword
+  (var_i) is a variable
+  'LT' denotes less than < keyword
+  10 is an INTEGER
+ Coma keyword
+  (var_i) is a variable
+  'INCR' denotes ++ keyword
+ Close first bracket
+ Open second bracket
+	 'PRINT' denotes show the line
+ Open first bracket
+ (var_i) is a variable
+ Close first bracket
+  'END' denotes ending of a line
+ Close Second bracket
+ 'INTEGER' like 'int' type 
+  (var_n) is a variable
+  'ASSIGN' denotes = keyword
+  5 is an INTEGER
+ 'WLOOP' like 'while' keyword
+ Open first bracket
+ (var_n) is a variable
+  'GEQL' denotes equal >= keyword
+  0 is an INTEGER
+ Close first bracket
+ Open second bracket
+ 'PRINT' denotes show the line
+ Open first bracket
+ (var_n) is a variable
+ Close first bracket
+  'END' denotes ending of a line
+ (var_n) is a variable
+  'DECR' denotes -- keyword
+  'END' denotes ending of a line
+ Close Second bracket
+ 'CHNG' like 'switch' keyword
+ Open first bracket
+ 5 is an INTEGER
+ Close first bracket
+ Open second bracket
+ 'CASE' like 'case' keyword
+  1 is an INTEGER
+  'KOLON' denotes start of a line
+	 'PRINT' denotes show the line
+ Open first bracket
+ (one) function is called
+ Close first bracket
+  'END' denotes ending of a line
+	 'BREAK' denotes 'break' keyword in c
+  'END' denotes ending of a line
+ 'CASE' like 'case' keyword
+  5 is an INTEGER
+  'KOLON' denotes start of a line
+	 'PRINT' denotes show the line
+ Open first bracket
+ (five) is a function name
+ Close first bracket
+  'END' denotes ending of a line
+	 'BREAK' denotes 'break' keyword in c
+  'END' denotes ending of a line
+ 'DEFAULT' denotes 'default' keyword in c
+  'KOLON' denotes start of a line
+	 'PRINT' denotes show the line
+ Open first bracket
+ 'ONE' is a STRING
+ Close first bracket
+  'END' denotes ending of a line
+ Close Second bracket
+ 'INTEGER' like 'int' type 
+  (var_s) is a variable
+  'ASSIGN' denotes = keyword
+  'SINE' denotes 'sin' keyword
+ Open first bracket
+ 30 is an INTEGER
+ Close first bracket
+  'END' denotes ending of a line
+ 'INTEGER' like 'int' type 
+  (var_cs) is a variable
+  'ASSIGN' denotes = keyword
+  'COSINE' denotes 'cos' keyword
+ Open first bracket
+ 30 is an INTEGER
+ Close first bracket
+  'END' denotes ending of a line
+ 'INTEGER' like 'int' type 
+  (var_tn) is a variable
+  'ASSIGN' denotes = keyword
+  'TANGENT' denotes 'tan' keyword
+ Open first bracket
+ 30 is an INTEGER
+ Close first bracket
+  'END' denotes ending of a line
+ 'INTEGER' like 'int' type 
+  (var_l) is a variable
+  'ASSIGN' denotes = keyword
+  'LON' denotes 'ln' keyword
+ Open first bracket
+ 8 is an INTEGER
+ Close first bracket
+  'END' denotes ending of a line
+ 'INTEGER' like 'int' type 
+  (var_lg) is a variable
+  'ASSIGN' denotes = keyword
+  'LB10' denotes 'log10' keyword
+ Open first bracket
+ 32 is an INTEGER
+ Close first bracket
+  'END' denotes ending of a line
+ 'FUNCTION' denotes function
+  (func_Add) is a function name
+ Open first bracket
+ 'INTEGER' like 'int' type 
+  (var_a) is a variable
+ Coma keyword
+ 'INTEGER' like 'int' type 
+  (var_b) is a variable
+ Close first bracket
+ Open second bracket
+	 'INTEGER' like 'int' type 
+  (var_summ) is a variable
+  'ASSIGN' denotes = keyword
+  Open first bracket
+ (var_a) is a variable
+  'PLUS' denotes + keyword
+  (var_b) is a variable
+ Close first bracket
+  'END' denotes ending of a line
+	 'PRINT' denotes show the line
+ Open first bracket
+ (var_summ) is a variable
+ Close first bracket
+  'END' denotes ending of a line
+ Close Second bracket
+ (goto_Add) function is called
+ Open first bracket
+ 10 is an INTEGER
+  Coma keyword
+  5 is an INTEGER
+ Close first bracket
+  'END' denotes ending of a line
+ (#This is single line comment) is single line comment
+ (## This is multiple
+line 
+comment ##) is multiple line comment
+ 'ENDP' denotes ending of a program

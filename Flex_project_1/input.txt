@@ -1,0 +1,75 @@
+IMPORT<stdlib.h>
+DEFINE pi 3.1416
+BODY
+INTEGER var_X ASSIGN 20 END
+INTEGER var_Y ASSIGN 30 END
+FLOAT var_ft ASSIGN 30.5 END
+
+INTEGER var_sum ASSIGN (var_x PLUS var_Y) END
+FLOAT var_sub ASSIGN (var_ft MINUS var_X) END
+INTEGER var_mul ASSIGN (var_x MUL var_Y) END
+INTEGER var_div ASSIGN (var_x DIV var_Y) END
+INTEGER var_reminder ASSIGN (var_x MOD var_Y) END
+INTEGER var_power ASSIGN (var_x POW 2) END
+
+PRINT(var_sum) END
+PRINT(var_sub) END
+PRINT(var_mul) END
+
+JODI(var_X GT var_Y)
+{
+PRINT(var_X is greater) END
+}
+OTHOBA(var_X EQL var_Y)
+{
+PRINT(var_X and var_Y are equal)
+}
+NAHOLE
+{
+PRINT(var_Y is smaller) END
+}
+
+FLOOP(INTEGER var_i ASSIGN 0, var_i LT 10, var_i INCR)
+{
+	PRINT(var_i) END
+}
+
+INTEGER var_n ASSIGN 5
+WLOOP(var_n GEQL 0)
+{
+PRINT(var_n) END
+var_n DECR END
+}
+
+CHNG(5)
+{
+CASE 1 KOLON
+	PRINT(one) END
+	BREAK END
+CASE 5 KOLON
+	PRINT(five) END
+	BREAK END
+DEFAULT KOLON
+	PRINT(ONE) END
+}
+
+INTEGER var_s ASSIGN SINE(30) END
+INTEGER var_cs ASSIGN COSINE(30) END
+INTEGER var_tn ASSIGN TANGENT(30) END
+
+INTEGER var_l ASSIGN LON(8) END
+
+INTEGER var_lg ASSIGN LB10(32) END
+
+FUNCTION func_Add(INTEGER var_a,INTEGER var_b)
+{
+	INTEGER var_summ ASSIGN (var_a PLUS var_b) END
+	PRINT(var_summ) END
+}
+goto_Add(10 , 5) END
+
+#This is single line comment
+## This is multiple
+line 
+comment ##
+ENDP
